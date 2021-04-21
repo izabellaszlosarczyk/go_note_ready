@@ -2,7 +2,7 @@
   <div class="container-fluid p-0 m-0 h-100 text-body">
     <div class="row p-0 m-0 h-100">
       <div class="col-12 col-md-5 col-lg-4 bg-light p-0 h-100">
-        <h3 class="w-100 text-center p-4 custom-header">
+        <h3 class="w-100 text-center p-4 text-secondary">
           <i class="bi-umbrella"></i> GoNote
         </h3>
         <button type="button" class="btn btn-dark w-100 py-2 rounded-0" v-on:click="onShowAddForm()">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar fixed-bottom navbar-dark custom-footer">
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
       <div class="container-fluid justify-content-end p-2">
         <span class="text-muted mx-5 d-none d-md-block">©2021 Polityka prywatności | Warunki korzystania z usługi</span>
         <span class="text-light"><i class="bi-heart-fill pe-2"></i>Moje konto</span>
@@ -99,17 +99,9 @@
   }
 
   .cover {
-    background-image: url("./assets/background2.jpg");
+    background-image: url("./assets/background.jpg");
     background-position: center;
     background-size: cover;
     height: 30%;
-  }
-  
-  .custom-footer {
-	background-color: #F46078;
-  }
-  
-  .custom-header {
-	color: #423B72;
   }
 </style>
